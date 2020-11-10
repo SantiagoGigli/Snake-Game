@@ -145,11 +145,11 @@
         canvas = document.getElementById('canvas');
         ctx = canvas.getContext('2d');
         // Load assets
-        iBody.src = '../assets/body.png';
-        iFood.src = '../assets/fruit.png';
-        iFruit.src = '../assets/specialFruit.png';
-        aEat.src = '../assets/chomp.oga';
-        aDie.src = '../assets/dies.oga';
+        iBody.src = './assets/body.png';
+        iFood.src = './assets/fruit.png';
+        iFruit.src = './assets/specialFruit.png';
+        aEat.src = './assets/chomp.oga';
+        aDie.src = './assets/dies.oga';
         // Create food
         food = new Rectangle(80, 80, 10, 10);
         fruit = new Rectangle(80, 80, 10, 10);
