@@ -41,10 +41,10 @@
             }).then(function(response){
                 return response.json()
             .then(function(parseResponse){
-                console.log(parseResponse);
+                console.log("Score sent successfully " + parseResponse);
             })
             }).catch(function(error){
-                console.log(error)
+                console.log("Error trying to send the score " + error)
             })
         }
 
